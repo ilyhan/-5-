@@ -141,6 +141,12 @@
   <ItemGroup>
     <ClCompile Include="Структуры 5 лаба.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="Data.txt" />
+    <Text Include="Data1.txt" />
+    <Text Include="Data2.txt" />
+    <Text Include="Data3.txt" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
