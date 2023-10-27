@@ -139,6 +139,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Stack.cpp" />
+    <ClCompile Include="Tree.cpp" />
     <ClCompile Include="Структуры 5 лаба.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -146,6 +148,10 @@
     <Text Include="Data1.txt" />
     <Text Include="Data2.txt" />
     <Text Include="Data3.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Stack.h" />
+    <ClInclude Include="Tree.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
